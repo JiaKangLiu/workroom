@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <servlet-name>AddStudentFreeTime</servlet-name>
+    <servlet-class>servlet.AddStudentFreeTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddStudentFreeTime</servlet-name>
+    <url-pattern>/AddStudentFreeTime</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddStudentMessage</servlet-name>
+    <servlet-class>servlet.AddStudentMessage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddStudentMessage</servlet-name>
+    <url-pattern>/AddStudentMessage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpLoad</servlet-name>
+    <servlet-class>servlet.UpLoad</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpLoad</servlet-name>
+    <url-pattern>/UpLoad</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetJson</servlet-name>
+    <servlet-class>servlet.GetJson</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetJson</servlet-name>
+    <url-pattern>/GetJson</url-pattern>
+  </servlet-mapping>
+</web-app>
